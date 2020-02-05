@@ -6,12 +6,17 @@ namespace In_Class_OOP
 {
     class Person
     {
-        private string name; // field
+        /*
+         private string name; // field
+         public string Name   // property
+         {
+             get { return name; }
+             set { name = value; }
+         }
+         */
 
-        public string Name   // property
-        {
-            get { return name; }   // get method
-            set { name = value; }  // set method
-        }
+        //Example of Automatic Properties and Encapsulation
+        public string Name  // property
+        { get; set; }
     }
 }
